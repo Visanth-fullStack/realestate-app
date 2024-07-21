@@ -29,4 +29,15 @@ This application is a property management system with a React frontend, Node.js 
 
 ## Installation
 
-1. Clone the repository
+1. Clone the repository.
+2. cd folder_name.
+3. cd backend and npm install.
+4. To run the backend, use node index.js and server will be running on 5000.
+5. cd to home folder and cd frontend and npm install.
+6. To run the frontend, use npm run start and frontend will be running in port 3000.
+
+## .env for Backend
+MONGODB_URI = <Your Database>
+JWT_SECRET = <Your Secret>
+JWT_EXPIRES_IN = 1h
+

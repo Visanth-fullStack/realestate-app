@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.slick-list {
+  padding: 50px 0px 50px 0px !important;
+  width: 90%;
+  margin: auto !important;
+}
+
+.ReactModal__Overlay {
+  z-index: 10;
+}

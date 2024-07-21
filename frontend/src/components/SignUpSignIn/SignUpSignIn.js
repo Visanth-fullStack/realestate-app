@@ -26,13 +26,13 @@ const SignUpSignIn = () => {
       .email("Invalid email format")
       .required("Email is required"),   
     password: Yup.string()
-    //   .required("Password is required")
-    //   .matches(/[0-9]/, "Password must contain a number")
-    //   .matches(/[a-z]/, "Password must contain a lowercase letter")
-    //   .matches(/[A-Z]/, "Password must contain an uppercase letter")
-    //   .min(8, "Password must be at least 8 characters")
-    //   .max(20, "Password must be at most 20 characters")
-    //   .notOneOf([Yup.ref("email")], "Password must not contain your email"),
+      .required("Password is required")
+      .matches(/[0-9]/, "Password must contain a number")
+      .matches(/[a-z]/, "Password must contain a lowercase letter")
+      .matches(/[A-Z]/, "Password must contain an uppercase letter")
+      .min(8, "Password must be at least 8 characters")
+      .max(20, "Password must be at most 20 characters")
+      .notOneOf([Yup.ref("email")], "Password must not contain your email"),
   });
 
   const validate = async () => {

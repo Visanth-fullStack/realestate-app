@@ -37,7 +37,9 @@ This application is a property management system with a React frontend, Node.js 
 6. To run the frontend, use npm run start and frontend will be running in port 3000.
 
 ## .env for Backend
+```
 MONGODB_URI = <Your Database>
 JWT_SECRET = <Your Secret>
 JWT_EXPIRES_IN = 1h
+```
 
